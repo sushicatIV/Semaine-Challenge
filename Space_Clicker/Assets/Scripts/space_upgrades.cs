@@ -7,47 +7,47 @@ using UnityEngine.UI;
 
 public class space_upgrades : MonoBehaviour
 {
-	[Header("Components")]
-	public TMP_Text priceText;
-	public TMP_Text IncomeInfoText;
+    [Header("Components")]
+    public TMP_Text priceText;
+    public TMP_Text IncomeInfoText;
 
-	[Header("Gen values")]
-	public int startPrice = 15;
-	public float upgradePriceMult;
-	public float SCPerUpgrade;
+    [Header("Gen values")]
+    public int startPrice = 15;
+    public float upgradePriceMult;
+    public float SCPerUpgrade;
 
-	[Header("Manager")]
-	public GameManager gameManager;
+    [Header("Manager")]
+    public GameManager gameManager;
 
-	int level;
+    int level;
 
-	private void Start()
-	{
-		UpdateUI();
-	}
+    private void Start()
+    {
+        UpdateUI();
+    }
 
-	public void ClickAction()
-	{
-		int price = CalculatePrice();
-		bool purchaseSuccess = gameManager.PurchaseAction(price);
-		if (purchaseSuccess)
-		{
-			level++;
-			UpdateUI();
-		}
-	}
+    public void ClickAction()
+    {
+        int price = CalculatePrice();
+        bool purchaseSuccess = gameManager.PurchaseAction(price);
+        if (purchaseSuccess)
+        {
+            level++;
+            UpdateUI();
+        }
+    }
 
-	void UpdateUI(){
-		priceText.text = CalculatePrice().ToString();
-		IncomeInfoText.text = level.ToString() + " x " + SCPerUpgrade + "/s";
-	}
+    void UpdateUI(){
+        priceText.text = CalculatePrice().ToString();
+        IncomeInfoText.text = level.ToString() + " x " + SCPerUpgrade + "/s";
+    }
 
-	int CalculatePrice()
-	{
-		int price = Mathf.RoundToInt(startPrice * Mathf.Pow(upgradePriceMult, level));
-		return price;
-	}
-	public float CalculateIncomePerSecond(){
-		return SCPerUpgrade * level;
-	}
+    int CalculatePrice()
+    {
+        int price = Mathf.RoundToInt(startPrice * Mathf.Pow(upgradePriceMult, level));
+        return price;
+    }
+    public float CalculateIncomePerSecond(){
+        return SCPerUpgrade * level;
+    }
 }

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38
+  controlID: 78
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -190,10 +190,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 232
+    width: 247
     height: 733
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -214,9 +214,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 232
+    x: 247
     y: 0
-    width: 1354
+    width: 1339
     height: 733
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 334
     height: 933
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -622,9 +622,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 232
+    x: 247
     y: 79
-    width: 1352
+    width: 1337
     height: 707
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1196,9 +1196,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 583.09204, y: 351.6132, z: -4.4031405}
+    m_Target: {x: 705.5713, y: 331.98834, z: -2.8339171}
     speed: 2
-    m_Value: {x: 583.09204, y: 351.6132, z: -4.4031405}
+    m_Value: {x: 702.7357, y: 327.78387, z: -2.6119592}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1249,9 +1249,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 511.01727
+    m_Target: 515.43414
     speed: 2
-    m_Value: 511.01727
+    m_Value: 493.2384
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1308,7 +1308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 79
-    width: 231
+    width: 246
     height: 707
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1330,11 +1330,20 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1414
+      - m_Data: -1340
+      - m_Data: 41354
+      - m_Data: 41366
+      - m_Data: 41432
+      - m_Data: 41844
+      - m_Data: 41878
+      - m_Data: 41978
+      - m_Data: 42068
+      - m_Data: 42226
+      - m_Data: 42320
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: upg_star1
+        m_OriginalName: upg_star1
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -1342,10 +1351,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 0
+          m_Data: 41756
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}
@@ -1378,9 +1387,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 232
+    x: 247
     y: 79
-    width: 1352
+    width: 1337
     height: 707
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1401,7 +1410,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1352, y: 686}
+  m_TargetSize: {x: 1337, y: 686}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1416,8 +1425,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -676
-    m_HBaseRangeMax: 676
+    m_HBaseRangeMin: -668.5
+    m_HBaseRangeMax: 668.5
     m_VBaseRangeMin: -343
     m_VBaseRangeMax: 343
     m_HAllowExceedBaseRangeMin: 1
@@ -1437,23 +1446,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1352
+      width: 1337
       height: 686
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 676, y: 343}
+    m_Translation: {x: 668.5, y: 343}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -676
+      x: -668.5
       y: -343
-      width: 1352
+      width: 1337
       height: 686
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1352, y: 707}
+  m_LastWindowPixelSize: {x: 1337, y: 707}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1509,7 +1518,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1519,21 +1528,21 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 54
-  m_LastProjectPath: C:\Users\e.epaillard\Downloads\Semaine-Challenge-master\Semaine-Challenge-master\Space_Clicker
+  m_LastProjectPath: C:\Users\ethan\OneDrive\Bureau\algocsharp\Semaine-Challenge\Space_Clicker
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 6}
     m_SelectedIDs:
-    - m_Data: 43334
+    - m_Data: 42646
     m_LastClickedID:
-      m_Data: 43334
+      m_Data: 42646
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 43334
+    - m_Data: 42548
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1565,7 +1574,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 42548
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1597,7 +1608,8 @@ MonoBehaviour:
     m_LastClickedEntityId:
       m_Data: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: []
+    m_ExpandedInstanceIDs:
+    - m_Data: 53052
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
