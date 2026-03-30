@@ -1330,7 +1330,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1414
+      - m_Data: -1340
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1521,19 +1521,19 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 54
-  m_LastProjectPath: C:\Users\e.epaillard\Downloads\Semaine-Challenge-master\Semaine-Challenge-master\Space_Clicker
+  m_LastProjectPath: C:\Users\e.epaillard\Desktop\Nouveau dossier\Space_Clicker
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 43334
+    - m_Data: 42084
     m_LastClickedID:
-      m_Data: 43334
+      m_Data: 42084
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 43334
+    - m_Data: 42084
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1565,7 +1565,9 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 42084
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
